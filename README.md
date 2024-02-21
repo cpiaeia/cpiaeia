@@ -1,9 +1,1 @@
-Personal Accounts:
-
-Bilibili: Cpiaeia
-
-Weibo: 非常好小鸟
-
-QQ: 2268342123
-
-Irene is best!!!
+<a href="#/https://github.com/MaaAssistantArknights/MaaAssistantArknights/blob/dev/README.md?plain=1">baidu</a>
