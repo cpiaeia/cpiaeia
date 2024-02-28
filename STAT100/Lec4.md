@@ -59,9 +59,9 @@ np.arange(1, -10, -3) -> array([ 1, -2, -5, -8]) // Python
     * ### Column: `Table.shape[1]`
 * ### Get a column: `Table.get('title')`
 * ### Assignment command: `Table=Table1.assign(Assignment clauses)` This command can create a new column/row in "Table"
-* ### Get a row: `Table.loc('title')`
+* ### Get a row: `Table.loc['title']`
   * ### Get a specific row: `Table.iloc[number]`
-* ### Get a specific member: `Table.get('title').loc['rowname']` `Table.loc('rowname')('title')`
+* ### Get a specific member: `Table.get('title').loc['rowname']` `Table.loc['rowname']['title']`
 * ### Sort the table in ascending order: `Table.sort_values(by='tilte')`
   * ### Descending: `Table.sort_values(by='tilte', ascending=False)`
 * ### Booling Indexing: `Table[Table.get('title')>,<,==number]`
