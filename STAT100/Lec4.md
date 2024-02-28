@@ -20,12 +20,13 @@
 * ### `Array_1 + Array_2`
 * ### `Array_1 - Array_2`
 * ### `Array_1 * Array_2` 
-* ### This command allows Array_1[m]*Array_2[m] to multiply and output
+* ### This command allows Array_1[m] and Array_2[m] to multiply and output
 ## 2.3 Basic Array Commands
 * ### Length of Array: `len(Array)`
 * ### Sum of Array: `sum(Array)` or `Array.sum()
 * ### Average of Array: `sum(Array)/len(Array)` or Array.mean
-* ### Maximum number in Array: `max(Array)` or `Array.max()`
+* ### Maximum/Minimum number in Array: `max(Array)/min(Array)` or `Array.max()/Array.min()`
+* ### Medium number in Array: `median(Array)`
 ## 3. Range
 * ### An array of increasing integers from 0 up to (and excluding!) end: `np.arange(end)`
 * ### An array of increasing integers from start up to (excluding!) end: `np.arange(start, end)`
@@ -54,12 +55,13 @@ np.arange(1, -10, -3) -> array([ 1, -2, -5, -8]) // Python
 * ### Listing all the titles in file.csv: `Table.index`
     * ### Listing specific title in file.csv: `Table.index[number]`
 * ### Shape of a table: `Table.shape()` Access each with `[title]`
-    * ### Column: `Table.shape[0]`
-    * ### Row: `Table.shape[1]`
+    * ### Row: `Table.shape[0]`
+    * ### Column: `Table.shape[1]`
 * ### Get a column: `Table.get['title']`
 * ### Assignment command: `Table=Table1.assign(Assignment clauses)` This command can create a new column/row in "Table"
 * ### Get a row: `Table.loc['title']`
   * ### Get a specific row: `Table.iloc[number]`
+* ### Get a specific member: `Table.get['title'].loc['rowname']` `Table.loc['rowname']['title']`
 * ### Sort the table in ascending order: `Table.sort_values(by='tilte')`
   * ### Descending: `Table.sort_values(by='tilte', ascending=False)`
 * ### Booling Indexing: `Table[Table.get('title')>,<,==number]`
