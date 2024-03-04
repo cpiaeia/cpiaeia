@@ -30,7 +30,7 @@ Const
 * ### In contrast nonconst reference cannot be initialized to an rvalue
   ``` c++
   int &ref = 10; // ERROR
-   int &ref = iVal+10; // ERROR
+  int &ref = iVal+10; // ERROR
   ```
 # 3. Particular use: pass struct/class as the function argument
   ``` c++
